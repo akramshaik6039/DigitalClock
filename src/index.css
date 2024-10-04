@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: '../public/digital-7.zip';
+}
+#maindiv{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('../public/accets/ghost.jpg');
+    display: flex;
+    align-items: center;
+}
+#container{
+    width: 20%;
+    height: 300px;
+    margin: 250px 0px 0px 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmZmbWI5bzFqcnlwdWY3aWp1a2J1NXk1ZGZ4dWpzdTl1NDdiMDl2ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QjuFNYKiGXZpTA1mQe/giphy.webp');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:ani  1s infinite alternate-reverse;
+
+}
+@keyframes ani {
+    0%{box-shadow: 1px -1px 30px 1px tomato;}
+    10%{box-shadow: 1px -5px 30px 2px tomato;}
+    20%{box-shadow: 1px -6px 30px 3px tomato;}
+    30%{box-shadow: 1px -7px 30px 4px tomato;}
+    40%{box-shadow: 1px -8px 30px 5px tomato;}
+    50%{box-shadow: 1px -10px 30px 6px tomato;}
+    60%{box-shadow: 1px -8px 30px 7px tomato;}
+    70%{box-shadow: 1px -6px 30px 8px tomato;}
+    80%{box-shadow: 1px -4px 30px 9px tomato;}
+    90%{box-shadow: 1px -2px 30px 10px tomato;}
+    100%{box-shadow: 1px -1px 30px 12px tomato;}
+}
+#time{
+   
+    padding: 5px;
+    filter: drop-shadow(1px 5px 5px  #132743);
+
+
+
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 50px white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
